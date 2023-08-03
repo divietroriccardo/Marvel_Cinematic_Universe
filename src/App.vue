@@ -1,7 +1,6 @@
 <script setup>
-  import { RouteView } from "vue-router"
 </script>
 
 <template>
-  <RouteView></RouteView>  
+  <RouterView />
 </template>

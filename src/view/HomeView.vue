@@ -1,16 +1,15 @@
 <script setup>
-  /* import Header from "../components/HeaderComponent.vue"
+  import Header from "../components/HeaderComponent.vue"
   import Menu from "../components/MenuComponent.vue"
   import CardsList from "../components/CardsListComponent.vue"
-  import Footer from "../components/FooterComponent.vue" */
+  import Footer from "../components/FooterComponent.vue"
 </script>
 
 <template>
-  <p>Prova</p> <!-- 
     <Header />
     <Menu />
     <CardsList />
-    <Footer /> -->
+    <Footer />
 </template>
 
 <style scoped>

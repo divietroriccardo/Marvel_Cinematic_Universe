@@ -17,7 +17,7 @@
         :key="el.class"
         :class="el.class"
       >
-        {{ el.name }}
+        <RouterLink :to="el.name.replace(/\s/g, '')">{{ el.name }}</RouterLink>
       </div>
     </div>
 </template>
