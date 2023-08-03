@@ -1,7 +1,5 @@
-<script setup>
-    import { ref } from "vue"
-
-    const list = 
+<script setup lang="ts">
+    const list: {name: string, class: string}[] = 
     [
         { name:"Tutti", class: "navAll" },
         { name:"Film", class: "navFilms" },
