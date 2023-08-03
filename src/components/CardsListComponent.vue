@@ -17,7 +17,16 @@
 <template>
     <div class="w-screen flex lg:flex-row justify-end items-start pb-4 bg-white min-h-screen">
       <div class="cards grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 justify-center lg:justify-start content-around w-screen lg:w-full">
-        <Card  v-for="el in listStore.getList" :key="el.name" />
+        <Card 
+          v-for="el in listStore.getList"
+          :key="el.name"
+          :type="el.type"
+          :name="el.name"
+          :releaseDate="el.releaseDate"
+          :phase="el.phase"
+          :img="el.img"
+          :episodes="el.episodes"
+        />
       </div>
       
       <!-- <SideMenu /> -->
