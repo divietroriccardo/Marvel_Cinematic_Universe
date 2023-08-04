@@ -1593,7 +1593,7 @@
           "phase": "Quattro"
       },
       {
-          "type": "Film",
+          "type": "Speciale",
           "name": "Licantropus",
           "img": "Licantropus.jpg",
           "releaseDate": ["07", "10", "2022"],
@@ -1607,7 +1607,7 @@
           "phase": "Quattro"
       },
       {
-          "type": "Film",
+          "type": "Speciale",
           "name": "Guardiani della Galassia Holyday Special",
           "img": "GuardiansSpecial.jpg",
           "releaseDate": ["25", "11", "2022"],
