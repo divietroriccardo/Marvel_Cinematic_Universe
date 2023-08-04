@@ -22,7 +22,12 @@
         {
             return props.releaseDate[0] + "/" + props.releaseDate[1] + "/" + props.releaseDate[2]
         }
-    } 
+    }
+
+    const seasons = () =>
+    {
+        return props.episodes[props.episodes.length - 1].season
+    }
         
 </script>
 
@@ -49,6 +54,13 @@
                 class="inline-block bg-gray-200 rounded-full px-1 py-1 text-center text-sm font-semibold text-gray-700 mr-2 mb-2"
             >
                 {{ "Fase " + phase }}
+            </span>
+
+            <span
+                v-if="route.params.type == 'SerieTV' || route.params.type == 'WebSerie'"
+                class="inline-block bg-gray-200 rounded-full px-1 py-1 text-center text-sm font-semibold text-gray-700 mr-2 mb-2"
+            >
+                {{ seasons() > 1 ? seasons() + " stagioni" : seasons() + " stagione" }}
             </span>
 
             <span class="inline-block bg-gray-200 rounded-full px-1 py-1 text-center text-sm font-semibold text-gray-700 mr-2 mb-2">

@@ -9,33 +9,6 @@
 
     const listStore = useListStore()
     listStore.loadData()
-    
-    const whichList = () =>
-    {
-      switch (route.params.type)
-      {
-        case "Tutti":
-          break;
-
-        case "Film":
-          break;
-
-        case "SerieTV":
-          break;
-
-        case "Speciali":
-          break;
-
-        case "Cortometraggi":
-          break;
-
-        case "WebSerie":
-          break;
-
-        default:
-          break;
-      }
-    }
 </script>
 
 <template>
